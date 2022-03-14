@@ -27,22 +27,22 @@ conda activate py37
 Once you setup your python installation and/or activated your conda environment
 
 ```bash
-git clone https://github.com/berberto/vertex_model.git
-cd vertex_model/
+git clone https://github.com/Rebeca99/IKNM_model.git
+cd IKNM_model/
 pip install -e .
 ```
 
 ### Run
 
-You can test the installation and the functions available with the `vertex_model` from the jupyter notebook in `examples/`:
+You can test the installation and the functions available with the `IKNM_model` from the jupyter notebook in `example_simulation_17_04_21.ipynb`:
 
 ```bash
-jupyter-notebook examples/example_simulation.ipynb
+jupyter-notebook example_simulation_17_04_21.ipynb
 ```
 
 #### Main functions
 
-The main functions to look at, in order to see how to set differentiation rates etc, are in `vertex_model/run_select.py`:
+The main functions to look at, in order to see how to set differentiation rates etc, are in `IKNM_model/run_select_final.py`:
 - `simulation_with_division`
 - `simulation_with_division_clone`
 - `simulation_with_division_clone_differentiation`
