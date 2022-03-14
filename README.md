@@ -48,5 +48,11 @@ The main functions to look at, in order to see how to set differentiation rates 
 - `simulation_with_division_clone_differentiation`
 - `simulation_with_division_clone_differenciation_3stripes`
 
+#### IKNM model with delayed drift, stochasticity and crowding force (Rebeca)
+- `simulation_with_division_model_1` -> delayed drift + noise  -> used, in the end, for my project
+- `simulation_with_division_model_2` -> drift = velocity + noise
+- `simulation_with_division_model_3` -> delayed drift + noise + crowding force -> used, in the end, for my project
+- `simulation_with_division_model_4` -> drift = velocity + noise + crowding force
+
 These are the functions to be called for a simulation run.
 The function `run_simulation_INM` is a wrapper for these function, and allows to select which of these to be run, along with other options.
